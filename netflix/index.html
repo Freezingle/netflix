@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Nepal-Watch Tv shows Online, Watch Movies Online </title>
+    <link rel="icon" href="images/netflix-logo-png-2616.png">
+    <link rel="stylesheet" href="netflix.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="landingPage">
+     
+        <div class="nav relative">
+            <ul class="flex" style="justify-content: space-between;">
+                <li><img src="images/netflix-logo-png-2562.png" alt="logo" height="70px" style="margin:30px"></li>
+                <li><button style="margin:30px">Sign In</button></li>
+            </ul>
+    </div>
+    <div class="container relative">
+      <ul class="flex paragraph" style="flex-direction: column;">
+        <li><h1>Unlimited movies, TV shows, and more.</h2></li>
+       <h3><li>Watch anywhere. Cancel anytime.</li>
+        <li>Ready to watch? Enter your email to create or restart your membership.</li></h3>
+        <li><input type="text" placeholder="Email address"></li>
+        <li><button>Get Started ></button></li>
+      </ul>
+
+
+    </div>
+       </div>
+
+       <div class="border"></div></div>
+       <div class="flex box paragraph">
+        <ul style="flex-direction:column; justify-content: space-between; ">
+          <li><h1>Enjoy on your TV.</h1></li>
+          <li>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</li>
+          </ul>
+        <img src="images/WfVA.gif" alt="tv-gif" style="float:right; margin:10px 50px 30px" height="200px">
+        
+      </div>
+      <div class="border"></div>
+     <div class="flex box paragraph">
+      <img src="images/mobile-0819.jpg" alt="" style="float:left;" height="300px">
+
+      <ul style="flex-direction:column; justify-content: space-between; ">
+         <li> <h1>Download your shows to watch offline.</h1></li> 
+         <li>Save your favorites easily and always have something to watch.</li>  
+         </ul>
+        
+     </div>
+     <div class="border"></div>
+     <div class="flex box paragraph">
+      <ul style="flex-direction:column; justify-content: space-between; ">
+     <li> <h1>Watch everywhere.</h1> </li>
+     <li>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</li>
+      </ul>
+</div>
+<div class="border"></div>
+<div class="flex box paragraph">
+  <img src="images/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png" alt="" style="float:left" height="300px">
+  <ul style="flex-direction:column; justify-content:space-between;">
+  <li><h1>Create profiles for kids.
+  </h1></li>
+<li>Send kids on adventures with their favorite characters in a space made just for them—free with your membership.</li></ul>
+</div>
+<div class="border"></div>
+<div class="box">
+  <h1>Frequently Asked Questions 
+  </h1>
+  <ul style="flex-direction:column;">
+    
+    <li> <button onclick="ans('ans1')" class="questions"> What is netflix?</button>
+       <span id="ans1" style="display:none">
+        <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on thousands of internet-connected devices.</p>
+        <p>You can watch as much as you want, whenever you want without a single commercial – all for one low monthly price. There's always something new to discover and new TV shows and movies are added every week!
+        </p>
+       </span></li>
+
+    <li><button class="questions" onclick="ans('ans2')">How much does netflix cost?</button>
+    <span id="ans2" style="display:none"><p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from USD3.99 to USD11.99 a month. No extra costs, no contracts.</p></span></li>
+    
+    <li><button class="questions" onclick="ans('ans3')">Where can I watch?</button>
+    <span id="ans3" style="display:none"><p>Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles.</p>
+    <p>You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere.</p></span></li>
+    
+    <li><button class="questions" onclick="ans('ans4')">How do I cancel Netflix?</button>
+    <span id="ans4" style="display:none"><p>Netflix is flexible. There are no pesky contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime.</p></span></li>
+    
+    <li><button class="questions" onclick="ans('ans5')">What can I watch on Netflix?</button>
+     <span id="ans5" style="display:none"><p>Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want.</p></span></li>
+   
+   
+     <li><button class="questions" onclick="ans('ans6')">Is Netflix good for kids?</button>
+      <span id="ans6" style="display:none"><p>The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and movies in their own space.
+      </p>
+    <p>Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+    </p></span><li>
+
+  </ul>
+  <div class="finale">
+  <p>Ready to watch? Enter your email to create or restart your membership</p>
+  <p><input type="text" placeholder="Email address"></p>
+  <button>Get Started ></button>
+  </div>
+</div>
+<script>
+  function ans(a)
+  {
+    if(document.getElementById(a).style.display=='none')
+   document.getElementById(a).style.display='inline-block';
+   else{
+    document.getElementById(a).style.display='none';
+   }
+  }
+</script>
+
+    
+</body>
+</html>
